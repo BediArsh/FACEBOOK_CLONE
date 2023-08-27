@@ -47,7 +47,7 @@ function post(ev) {
       postInfo.classList.add("post-info");
       let nameP = document.createElement("p");
       nameP.classList.add("name");
-      nameP.textContent = "SANJANA";
+      nameP.textContent = "ANISH";
       let timeSpan = document.createElement("span");
       timeSpan.classList.add("time");
       timeSpan.textContent = "6 hrs ago";
@@ -68,7 +68,7 @@ function post(ev) {
       postContent.classList.add("post-content");
       postContent.textContent = "CAPTION!";
       let postImage = document.createElement("img");
-      postImage.src = "imgs/post-4.jpg";
+      postImage.src = "imgs/post-3.jpg";
       postImage.alt = "";
       postContent.appendChild(postImage);
       
