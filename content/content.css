@@ -78,6 +78,19 @@ nav .nav-right .profile, .container .left-panel .profile{
     cursor: pointer;
 }
 
+nav .nav-right button {
+    height: 28px;
+    width: 104px;
+    text-decoration: none;
+    background-color: blue;
+    color:#eee;
+    font-size:15px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+}
+
 nav .nav-right a{
     text-decoration: none;
     color:#333;
