@@ -138,3 +138,20 @@ function createAction(iconType, iconName, text) {
 // accessing button
 let button= document.querySelector(".addpost");
 button.addEventListener("click",post);
+
+// deleting the existing posts
+let del= document.querySelector(".post-container");
+console.log(del);
+
+del.addEventListener("click",function(ev){
+    console.log(ev.target);
+    let className= ev.target.className;
+    let currentElement= ev.target;
+    console.log(className);
+
+    if (className=="dele") {
+        let item= currentElement.parentElement.parentElement;
+        console.log(item);
+        item.remove();
+    }
+})
